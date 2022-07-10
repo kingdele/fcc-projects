@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proj</title>
+    <link rel="stylesheet" href="proj.css">
+</head>
+<header class="header">
+  <h1 id="title" class="text-center"> Anime Survey Form</h1>
+  <p id="description" class="description text-center"><h2>Top tier Anime</h2> </p>
+</header>
+<body>
+<div class="container">
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name" >Name</label> 
+            <input type="text" name="name"
+            id="name"
+            
+            placeholder="Enter your name"
+            required
+            /> 
+        </div><br>
+        
+    
+        
+        <div class="form-group">
+            <label id="email-label"
+            for="email">Email</label> 
+            <input type="email"
+            name="email"
+            id="email"
+            
+            placeholder="Enter your email"
+            required
+            /> </div> <br>
+            <div class="form-group">
+                <label id="number-label" for="number">Age</label> 
+                <input type="number"
+                name="age"
+                id="number"
+                min="15"
+                max="60"
+            
+                placeholder="Age"
+                 /> </div> <br>
+                 <div class="form-group">
+                  <P>Type of waifu?</P>  
+                  <select id="dropdown" name="type" class="form-control"required >
+                    <option disabled selected value>Select type</option>
+                    <option value="tsundere">Tsundere</option>
+                    <option value="dundere">Dundere</option>
+                    <option value="kundere">Kundere</option>
+                    <option value="dandere">Dandere</option>
+                    <option value="others">others</option>
+
+                  </select>
+                 </div>
+                 <div class="form-group">
+                    <p>Best Anime MC's?</p>
+                    <label>
+                        <input type="radio" name="user-recommend"
+                        value="Itadori" class="input-radio" checked />Itadori</label> <br> 
+                        <label>
+                            <input type="radio" name="user-recommend"
+                            value="Asta" class="input-radio"  />Asta</label> <br>
+                            <label>
+                                <input type="radio" name="user-recommend"
+                                value="midoriya" class="input-radio"  />Midoriya</label> <br>
+                                <label>
+                                    <input type="radio" name="user-recommend"
+                                    value="tanjiro" class="input-radio"  />Tanjiro</label> <br>
+                                    <label>
+                                        <input type="radio" name="user-recommend"
+                                        value="Eren" class="input-radio"  />Eren</label>
+                 </div>
+
+                 <div class="form-group">
+                    <p>What type of abilities would you like to acquire?  <span class="clue">(check all if wanted)</span></p>
+                    <label>
+                        <input type="checkbox"
+                        value="weather manipulation"
+                        name="user-recommend"
+                        class="input-checkbox"
+                        />Weather Manipulation
+                        
+                    </label> <br>
+                    <label>
+                        <input type="checkbox"
+                        value="molecule creation and decomposition"
+                        name="user-recommend"
+                        class="input-checkbox"
+                        />Molecule creation and decomposition
+                        
+                    </label> <br>
+                    <label>
+                        <input type="checkbox"
+                        value="Time manipulation"
+                        name="user-recommend"
+                        class="input-checkbox"
+                        />Time manipulation
+                        
+                    </label> <br>
+                    <label>
+                        <input type="checkbox"
+                        value="energy absorption"
+                        name="user-recommend"
+                        class="input-checkbox"
+                        />Energy absorption
+                        
+                    </label> <br>
+                    <label>
+                        <input type="checkbox"
+                        value="Ability steal"
+                        name="user-recommend"
+                        class="input-checkbox"
+                        />Ability steal
+                        
+                    </label> <br>
+                    <label>
+                        <input type="checkbox"
+                        value="mind reader"
+                        name="user-recommend"
+                        class="input-checkbox"
+                        />Mind reader
+                        >
+                    </label> <br>
+                    <div class="form-group">
+                        <p>Any suggestions?</p>
+                        <textarea
+                        id="comments"
+                        class="input-textarea"
+                        name="comments"
+                        placeholder="Enter your comments here..."
+                        ></textarea> <br>
+                        <div class="form-group">
+                            <button type="submit" id="submit" class="submit-button">submit
+
+                            </button>
+                        
+                        
+                        
+                        </div>
+                    </div>
+
+                 </div>
+
+            </div>
+        </div>
+    </form>
+
+    
+</body>
+</html>
