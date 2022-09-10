@@ -1,14 +1,19 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
 
 body{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     color: rgb(3, 3, 3);
-    background-color:rgb(195, 224, 251) ;
+    background-color:rgb(239, 244, 248) ;
+    
 }
 header{
     font-family: sans-serif;
+    text-align: center;
 }
 title{
     text-transform: uppercase;
@@ -22,18 +27,30 @@ main{
 
 }
 img{
+     max-width: 100%;
+     display: block;
+     height: auto;
+     margin: 0 auto;
+     
     
-    max-width: 100%;
-    height: auto;
-     margin-right: 30px ;
-    justify-content: center;
-    text-align: center;
+
+    
 }
 #img-caption {
     /* background: white; */
     margin: 15px 0 5px o;
 
 }
+
+figure{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+
+}
+
 #img-div  {
     background: rgb(249, 244, 244);
     padding: 10px;
@@ -47,13 +64,12 @@ li{
     
 }
 ul{
-    /* max-width: 500px; */
+    
     margin: 0 auto 50px auto;
     text-align: left;
 }
 a{
     text-decoration: none;
     color: rgb(88, 86, 86);
-    /* text-align: center; */
 }
 
