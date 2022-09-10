@@ -6,8 +6,8 @@ header{
 
 }
 body{
-    background-image: url("https://th.bing.com/th/id/R.80b56908c90237025341354c06a3499f?rik=wdpXIHj%2bDaX8wg&pid=ImgRaw&r=0");
-    background-repeat: no-repeat;
+    background-image: url("./backgrnd.jpg");
+    background-repeat: repeat;
     text-decoration: solid;
     margin: 0;
    
