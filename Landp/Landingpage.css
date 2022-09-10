@@ -171,6 +171,7 @@ h2{
   
   .product > ol > li {
     padding: 5px 0;
+    list-style: none;
   }
   
   .product > button {
